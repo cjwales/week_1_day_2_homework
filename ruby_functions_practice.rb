@@ -57,8 +57,8 @@ return length_of_the_side.to_i**3
 end
 
 def volume_of_sphere(radius_of_sphere)
-
-volume = (((4/3)*3.14159265359)*(radius_of_sphere.to_i**3))
+#volume = (((4/3)*Math::PI)*(radius_of_sphere.to_i**3))
+volume = 4 / 3 * Math::PI * (radius_of_sphere ** 3)
 return volume
 end
 
