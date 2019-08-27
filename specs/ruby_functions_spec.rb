@@ -95,8 +95,8 @@ add_result = add( 1, 2 )
   #Given a value in farenheit, convert this into celsius.
   def test_fahrenheit_to_celsius()
     #add test code here
-    fahrenhei = fahrenheit_to_celsius(80)
-    assert_equal(26 ,fahrenhei )
+    fahrenheit = fahrenheit_to_celsius(80)
+    assert_equal(26 ,fahrenheit )
   end
 
 
